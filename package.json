@@ -1,0 +1,52 @@
+{
+  "name": "center",
+  "version": "1.0.0",
+  "description": "thinking in angularJS",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.3",
+    "oclazyload": "^1.1.0",
+    "swiper": "^3.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.3",
+    "autoprefixer-core": "^6.0.1",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-angularjs-annotate": "^0.8.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.5.0",
+    "eslint-loader": "^1.9.0",
+    "exports-loader": "^0.6.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-minifier": "^3.5.3",
+    "html-minifier-loader": "^1.4.0",
+    "html-webpack-plugin": "^2.30.1",
+    "ng-annotate-webpack-plugin": "^0.2.1-pre",
+    "node-sass": "^4.5.3",
+    "postcss-flexbugs-fixes": "^3.2.0",
+    "postcss-loader": "^2.0.6",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "build": "webpack --bail -p --progress --profile --colors",
+    "dev": "webpack-dev-server --history-api-fallback --colors --hot --inline --progress"
+  },
+  "keywords": [
+    "app",
+    "component-oriented"
+  ],
+  "author": "bjiang",
+  "license": "ISC"
+}

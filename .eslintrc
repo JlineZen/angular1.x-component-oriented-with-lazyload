@@ -1,0 +1,29 @@
+/**
+ * eslint 配置
+ */
+
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module"
+    },
+    "globals": {
+        "require": true
+    },
+    "parser": "Babel-ESLint",
+    "rules": {
+        "strict": "off",
+        "indent": ["error", 4], // 缩进4格， 不然报错
+        "eqeqeq": ["warn", "allow-null"], // 没使用恒等于，程序会警告
+        "curly": "error",
+        "no-console": "warn", // 不允许console
+        "quotes": ["warn", "single", "avoid-escape"],
+        "semi": "warn"
+    }
+}

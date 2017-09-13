@@ -1,0 +1,10 @@
+<div class="swiper-container ad-content">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" ng-repeat="ad in $ctrl.ads track by ad.content">
+            <a ng-href="{{ad.itemdetailUrl}}" track-tag="['广告点击', '{{ad.title}}', '']">
+                <img ng-src="{{ad.content}}" />
+            </a>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
